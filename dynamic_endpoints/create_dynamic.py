@@ -4,7 +4,7 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-# Creae an Endpoint
+# Create an Endpoint
 @app.route('/', methods=['GET','POST'])
 def phone():
     try:
